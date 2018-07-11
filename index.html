@@ -2,22 +2,87 @@
 <html lang="en">
 <head>
 	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, shrink-to-fit=no">
 	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
 
 	<title> Jerome Christian Lumacad | Web Developer Portfolio </title>
 
-	<!-- external stylesheet -->
-	<link rel="stylesheet" type="text/css" href="assets/css/style.css">	
+	<!-- Bootstrap css -->
+	<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+
+	<!-- external css -->
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+	<!-- google fonts -->
+
+	<!-- fontawesome icons -->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
 </head>
 <body>
-	<header>
-		<div class="handle-name">jmlumacad1</div>
-	</header>
-	<main></main>
-	<footer>
-		<div class="link-github"></div>
-		<div class="link-gitlab"></div>
-	</footer>
+
+	<header class="header">
+
+		<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+			<a class="navbar-brand handle-name" href="#"> jmlumacad1 </a>
+<!-- 
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+
+			<div class="collapse navbar-collapse" id="navbarNav">
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item">
+						<a class="nav-link" href="#"> Home </a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#"> About Us </a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#"> Gallery </a>
+					</li>
+					<li class="nav-item">
+						<a class="btn btn-outline-success"> Register </a>
+					</li>
+				</ul>
+			</div>
+ -->
+		</nav> <!-- end nav -->
+	</header> <!-- end header -->
+
+	<main class="main container">
+		<div class="project">
+			<div class="project-img"></div>
+			<div class="project-name"> Project 1 </div>
+			<div class="project-content"></div>
+		</div>
+		<div class="project">
+			<div class="project-img"></div>
+			<div class="project-name"> Project 2 </div>
+			<div class="project-content"></div>
+		</div>
+		<div class="project">
+			<div class="project-img"></div>
+			<div class="project-name"> Project 3 </div>
+			<div class="project-content"></div>
+		</div>
+	</main> <!-- end main -->
+
+	<footer class="footer">
+		<div class="link-github">
+			<i class="fab fa-github"></i>
+		</div>
+		<div class="link-gitlab">
+			<i class="fab fa-gitlab"></i>
+		</div>
+	</footer> <!-- end footer -->
+	
+	<!-- jquery first, then popper.js, then bootstrap -->
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+
+	<!-- external bootstrap js -->
+	<script src="assets/js/bootstrap.min.js"></script>
+
 </body>
 </html>
