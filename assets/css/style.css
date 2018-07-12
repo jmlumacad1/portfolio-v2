@@ -2,18 +2,7 @@
 	padding: 0;
 	margin: 0;
 	box-sizing: border-box;
-	/*border: 1px solid black;*/
 }
-
-.container-project {
-	display: inline-block;
-}
-
-.project {
-	width: 18rem;
-}
-
-/* older codes */
 
 .container {
 	max-width: 960px; /*so that the layout won't expand extensively in*/
@@ -29,6 +18,8 @@
 	min-height: 700px;
 	background-color: lightgrey;
 }
+
+/* footer section */
 
 .footer {
 	height: 100px;
@@ -48,11 +39,11 @@ i {
 	clear: both;
 }
 
-/*[class*="col"] {
+[class*="col"] {
 	border: 5px solid black;
 	float: left;
 	box-sizing: border-box;
-}*/
+}
 
 /*media queries*/
 
