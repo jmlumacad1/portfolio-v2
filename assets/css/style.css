@@ -9,10 +9,19 @@
 	margin: auto;
 }
 
+/* header section */
+
 .header {
 	min-height: 150px;
 	background-color: darkviolet;
 }
+
+.handle-name {
+	font-family: "Computer Modern", sans-serif;
+	font-size: 2em;
+}
+
+/* main section */
 
 .main {
 	min-height: 700px;
