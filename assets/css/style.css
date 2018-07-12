@@ -31,7 +31,8 @@
 /* main section */
 
 .main {
-	min-height: 700px;
+	/* min-height: 700px; */
+	/* height: 100vh; */
 	background-color: lightgrey;
 }
 
@@ -40,6 +41,9 @@
 .footer {
 	height: 100px;
 	background-color: skyblue;
+	width: 100%;
+	position: absolute;
+	bottom: 0;
 }
 
 i {
