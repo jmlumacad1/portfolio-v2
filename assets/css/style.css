@@ -1,5 +1,6 @@
 :root {
 	--header-height: 150px;
+	--footer-height: 100px;
 }
 
 * {
@@ -26,6 +27,8 @@
 	color: #FFFFFF;
 	text-decoration: none;
 	line-height: var(--header-height);
+	font-weight: normal;
+	padding-left: 20px;
 }
 
 /* main section */
@@ -39,15 +42,22 @@
 /* footer section */
 
 .footer {
-	height: 100px;
+	height: var(--footer-height);
+	line-height: var(--footer-height);
 	background-color: skyblue;
 	width: 100%;
 	position: absolute;
 	bottom: 0;
+	text-align: center;
 }
 
-i {
+.footer i {
 	font-size: 30px;
+}
+
+.footer a {
+	color: initial;
+	text-decoration: none;
 }
 
 /*for css grid*/
@@ -60,10 +70,23 @@ i {
 }
 
 [class*="col"] {
-	border: 5px solid black;
+	border: 5px solid green;
 	float: left;
 	box-sizing: border-box;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*media queries*/
 
