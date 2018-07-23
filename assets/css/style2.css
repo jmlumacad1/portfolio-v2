@@ -15,6 +15,14 @@
 
 .project {
 	width: 18rem;
+	border: none;
+	margin-bottom: 15px;
+}
+
+.card-body {
+	border: 1px solid black;
+	border-top: none;
+	border-radius: 0 0 5px 5px;
 }
 
 /* older codes */
@@ -30,8 +38,11 @@
 }
 
 .main {
-	min-height: 700px;
-	background-color: lightgrey;
+	/* min-height: 700px; */
+	min-height: 100vh;
+	padding-top: 71px;
+	padding-bottom: var(--footer-height);
+	/* background-color: lightgrey; */
 }
 
 .footer {
