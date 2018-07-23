@@ -87,3 +87,13 @@
 		max-width: 300px;
 	}
 }
+
+@media only screen and (max-height: 400px) {
+	:root {
+		--footer-height: 45px;
+	}
+
+	footer {
+		padding: 5px 0;
+	}
+}
